@@ -1,0 +1,15 @@
+<company>
+    <employee role = "self" table = 
+    "">
+        <firstname>Tom</firstname>
+        <lastname>Cruise</lastname>
+        <designation>MD</designation>
+        <salary>500000</salary>
+    </employee>
+    <employee name = "anyone">
+        <firstname>Tyler</firstname>
+        <lastname>Horne</lastname>
+        <designation>CEO</designation>
+        <salary>250000</salary>
+    </employee>
+</company>

@@ -1,0 +1,32 @@
+Folder PHP
+    incs ----- myautorloader.inc
+             |
+              --> function.inc.php
+              --> ect.class.php
+    -----------------------------------------
+    has .inc.php
+    List 
+    - autorloader.inc.php
+    - function.inc.php
+
+    -----------------------------------------
+    has .class.php
+    List 
+
+    - seasion
+    - cookie
+    - Blocker
+    - Restriction
+    - MySQL (connection) +
+        |
+        |
+        -->    - register 
+        -->    - login 
+        -->    - User 
+        -->    - authentication 
+        -->    - accessLevel 
+        -->    - Blocker
+        -->    - Restriction
+        -->    - Query ( update / delete / insert / select)
+
+

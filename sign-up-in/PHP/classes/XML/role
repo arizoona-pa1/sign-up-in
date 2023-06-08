@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<role>
+  <member rank="user" table="everyone" database="fuczer">
+    <self>
+      <read>1</read>
+      <write>0</write>
+      <update>0</update>
+      <delete>0</delete>
+    </self>
+    <anyone>
+      <read>0</read>
+      <write>0</write>
+      <update>0</update>
+      <delete>0</delete>
+    </anyone>
+  </member>
+  <member rank="admin" table="everyone" database="fuczer">
+    <self>
+      <read>1</read>
+      <write>0</write>
+      <update>0</update>
+      <delete>0</delete>
+    </self>
+    <anyone>
+      <read>1</read>
+      <write>1</write>
+      <update>1</update>
+      <delete>0</delete>
+    </anyone>
+  </member>
+  <member rank="owner" table="everyone" database="fuczer">
+    <self>
+      <read>1</read>
+      <write>1</write>
+      <update>1</update>
+      <delete>1</delete>
+    </self>
+    <anyone>
+      <read>1</read>
+      <write>1</write>
+      <update>1</update>
+      <delete>1</delete>
+    </anyone>
+  </member>
+</role>
